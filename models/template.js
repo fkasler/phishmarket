@@ -1,4 +1,9 @@
 /**
+ * Template module.
+ * @module models/template
+ */
+
+/**
 * @param {object} filter - A JSON key:value pair hash of search filters we would like to apply to our search. Blank/undefined/null will return all templates.
 * @param {number} limit - The number of search results to return. Useful for pagination.
 * @param {number} offset - The number of search results to skip. Useful for pagination.

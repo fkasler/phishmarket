@@ -1,4 +1,9 @@
 /**
+ * Spam Filter module.
+ * @module models/spamfilter
+ */
+
+/**
 * @param {string} prouct_name - The name of the spam filter product. We keep these as SpamFilter objects in the tool to standardize their references and run metrics on the individual prouct.
 * @param {number} ich_id - The ID of the user who added this SpamFilter object.
 */

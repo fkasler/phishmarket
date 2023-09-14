@@ -1,4 +1,8 @@
 /** Class representing an approved technician. Each API key is hard coded in the config file. */
+/**
+ * Ichthyologist module.
+ * @module models/ichthyologist
+ */
 
 //create the ichthyologists table if it does not exist.
 let ich_setup = db.prepare(`
@@ -22,7 +26,7 @@ let user_setup = db.prepare(`
 `)
 
 user_setup.run({"handle": 'ph3eds', "api_key": 'ballnout@thePhishmarket'})
-user_setup.run({"handle": 'feedz', "api_key": 'ballnout@thePhishmarketz'})
+user_setup.run({"handle": 'user2', "api_key": 'myphishyfriend'})
 
 
 /**

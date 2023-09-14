@@ -1,4 +1,9 @@
 /**
+ * Scorecard module.
+ * @module models/scorecard
+ */
+
+/**
 * @param {number} template_id - The ID of the template the phishing email was build from.
 * @param {number} ich_id - The ID of the user who is submitting the Scorecard. This is infered from the user's API key.
 * @param {(number|string)} spam_filter_id - The spam filter that the technician sent the phishing email to/through. If an number, then it is the ID of an existing SpamFilter object. If a string, we add a new SpamFilter to track.
